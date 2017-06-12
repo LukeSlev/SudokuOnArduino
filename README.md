@@ -17,55 +17,76 @@ puzzle to be solved by the server or attempt to solve a randomly generated puzzl
 
 ## Wiring instructions:
 
+#### TFT Display
+
 >Note: LCD pins below are listed from left to right (LCD is portrait with pins facing user).
 
 LCD GND <--> Arduino GND bus
+
 LCD VCC <--> Arduino positive bus
+
 LCD RESET <--> Arduino Pin 8
+
 LCD D/C (Data/Command) <--> Arduino Pin 7
+
 LCD CARD_CS (Card Chip Select) <--> Arduino Pin 5
+
 LCD TFT_CS (TFT/screen Chip Select) <--> Arduino Pin 6
+
 LCD MOSI (Master Out Slave In) <--> Arduino Pin 51
+
 LCD SCK (Clock) <--> Arduino Pin 52
+
 LCD MISO (Master In Slave Out) <--> Arduino 50
+
 LCD LITE (Backlite) <--> Arduino positive bus
+
+#### Joystick
 
 >Note: Joystick pins below are listed from right to left (Joystick is portrait with pins facing away from user).
 
 Joystick VCC <--> Arduino positive bus
+
 Joystick VERT <--> Arduino Pin A0
+
 Joystick HOR <--> Arduino Pin A1
+
 Joystick SEL <--> Arduino Pin 9
+
 Joystick GND <--> Arduino GND bus
+
+#### Potentiometer
 
 >Note: The potentiometer instructions below assume that the middle pin is facing away from the user
 
 Middle potentiometer lead <--> Arduino pin A2
+
 Left potentiometer lead <--> Arduino GND bus
+
 Right potentiometer lead <--> Arduino Positive bus
 
-Select button
+#### Select button
+
 One button pin <--> Arduino GND Bus
+
 Other button pin <--> Arduino Pin 22
 
-Solve button
+#### Solve button
 One button pin <--> Arduino GND Bus
+
 Other button pin <--> Arduino Pin 23
 
-Check button
+#### Check button
 One button pin <--> Arduino GND Bus
+
 Other button pin <--> Arduino Pin 24
 
 Arduino positive bus <--> Arduino 5V pin
+
 Arduino GND bus <--> Arduino GND pin
 
 ## Running the Code
 
-```shell
-packagemanager install awesome-project
-awesome-project start
-awesome-project "Do something!"  # prints "Nah."
-```
 Unzip the project file and navigate to the unzipped
 folder from the commad line. Upload the appropriate client files to the arduino
 by typing "make upload". Next run the server by typing "python3 sudokuServer.py"
