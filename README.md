@@ -8,12 +8,12 @@ puzzle to be solved by the server or attempt to solve a randomly generated puzzl
 
 ## Accessories:
 
-1x Arduino Mega Board (AMG)
-1x Adafruit 1.8" 18-bit color TFT LCD
-1x Sparkfun COM-09032 Thumb Joystick and breakout board
-1x Kingston flash memory card - 4GB - microSDHC
-3x Push Buttons
-1x Potentiometer
+* 1x Arduino Mega Board (AMG)
+* 1x Adafruit 1.8" 18-bit color TFT LCD
+* 1x Sparkfun COM-09032 Thumb Joystick and breakout board
+* 1x Kingston flash memory card - 4GB - microSDHC
+* 3x Push Buttons
+* 1x Potentiometer
 
 ## Wiring instructions:
 
