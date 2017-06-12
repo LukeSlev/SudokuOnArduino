@@ -127,16 +127,21 @@ NOTE: When starting up the python server, if the diagnostic message m0 does
    not get printed, the server and client are out of sync. You can either press
    the reset button on the Arduino itself or unplug/replug the Arduino and try
    running the server again.
+   
 NOTE: If any number higher than 9 gets printed when you are adjusting the
    potentiometer, it is likely the potentiometer isn't plugged into the analog
    port very well. Try reseting the Arduino and regplugging the potentiometer.
+   
 NOTE: This code assumes that the hardware is set up as follows:
-Arduino is landscape with breadboard facing user, screen is portrait with pins
+  Arduino is landscape with breadboard facing user, screen is portrait with pins
   facing user, and joystick is portrait with pins facing away from user.
+  
 NOTE: This code assumes that the .lcd images found in the images subfolder
   in the sudoku (main) folder are stored on the SD card.
+  
 NOTE: If you are having issues with the buttons, it may be useful to debounce
   with a capacitor.
+  
 NOTE: The LCD image of the blank board was adapted from the .jpg file found at
   https://s-media-cache-ak0.pinimg.com/564x/4b/bf/65/4bbf6534dd4748bc16e301485
   79783f7.jpg
